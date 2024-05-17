@@ -1,7 +1,5 @@
 package com.project.villion.common;
 
-import org.springframework.core.StandardReflectionParameterNameDiscoverer;
-
 public class RestError {
     private String id;
     private String message;
@@ -18,4 +16,6 @@ public class RestError {
     public String getMessage() {
         return message;
     }
+
+    // 깃 연동 테스트
 }
